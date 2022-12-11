@@ -1,0 +1,9 @@
+# Python
+*.pyc
+
+# Pip
+build/*
+*.egg-info
+
+# Pytest
+.pytest_cache/*
