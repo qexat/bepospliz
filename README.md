@@ -2,6 +2,11 @@
 
 BePosPliz (be positional please) is a lightweight module to anonymize the arguments of a function.
 
+Relevant PEP: <https://peps.python.org/pep-0646>
+
+I am not really sure if this has a real world purpose, but playing with new Python features is very enjoyable.
+I appreciate the effort to improve type expressiveness, and I am looking forward to PEPs 695 and 696 for even more fun :D
+
 ## Features
 
 ### `anon_args`
