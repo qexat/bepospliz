@@ -11,6 +11,8 @@ BePosPliz (be positional please) is a lightweight module to anonymize the argume
 Let the following function:
 
 ```py
+from bepospliz import anon_args
+
 @anon_args
 def div(a: int, b: int) -> float:
     """Divide a by b"""
