@@ -3,6 +3,7 @@
 
 # Pip
 build/*
+dist/*
 *.egg-info
 
 # Pytest
