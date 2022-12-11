@@ -21,11 +21,11 @@ def div(a: int, b: int) -> float:
 
 `div`'s original signature is `div(a: int, b: int) -> float`.
 
-![`div` without decorator](https://github.com/qexat/bepospliz/blob/main/docs/assets/div_original.png)
+![`div` without decorator](https://raw.githubusercontent.com/qexat/bepospliz/main/docs/assets/div_original.png)
 
 With the decorator `@anon_args`, it becomes `div(int, int) -> float`, meaning that it cannot be called by specifically naming the args anymore (e.g. `div(b=3, a=2)`)
 
-![`div` with the decorator](https://github.com/qexat/bepospliz/blob/main/docs/assets/div_anon_args.png)
+![`div` with the decorator](https://raw.githubusercontent.com/qexat/bepospliz/main/docs/assets/div_anon_args.png)
 
 ---
 
